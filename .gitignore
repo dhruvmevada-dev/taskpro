@@ -1,0 +1,138 @@
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# Python / Django
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Migrations (optional)
+# Uncomment if you don't want to track migrations
+# **/migrations/
+# !**/migrations/__init__.py
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Type Checking
+.mypy_cache/
+.pytype/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Flutter
+# ==========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+build/
+
+# Flutter generated
+.pub/
+.pub-cache/
+
+# Dart
+.dart_tool/
+
+# Generated plugin registrants
+**/GeneratedPluginRegistrant.*
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+.flutter_bootstrap.js
+
+# ==========================
+# Firebase
+# ==========================
+firebase-debug.log
+.firestore/
+
+# ==========================
+# Misc
+# ==========================
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ==========================
+# Secrets / Keys
+# ==========================
+*.pem
+*.p12
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# ==========================
+# Node (if backend/frontend uses Node)
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
